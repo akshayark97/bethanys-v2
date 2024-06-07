@@ -22,7 +22,8 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#d77948"
-      }
+      },
+      "package": "com.akshayrk97.bethanysv2"
     },
     "web": {
       "favicon": "./assets/favicon.png",

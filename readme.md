@@ -13,3 +13,11 @@
 ```eas login```
 
 ```eas build:configure```
+
+```eas build --platform android```
+
+# Testing on physical device
+
+```eas login```
+
+```eas build --profile preview --platform android```
