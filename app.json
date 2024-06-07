@@ -1,0 +1,45 @@
+{
+  "expo": {
+    "name": "bethanys-v2",
+    "slug": "bethanys-v2",
+    "version": "1.0.0",
+    "scheme": "myapp",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/bethanys.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#d77948"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#d77948"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png",
+      "output": "single",
+      "bundler": "metro"
+    },
+    "plugins": [
+      "expo-font",
+      "expo-router"
+    ],
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "6377a199-1036-4b9b-b60a-b02aed75a2dd"
+      }
+    }
+  }
+}
